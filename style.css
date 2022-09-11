@@ -2,9 +2,47 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
+    
     align-items: center;
     justify-content: center;
     vertical-align: middle;
     display: flex;
+
+    background-color: rgb(32, 30, 102);
+    color: white;
+}
+span {
+    color:white;
+}
+img {
+    position: absolute;
+    width: 100px;
+    border-radius: 100%;
+}
+.electronique {
+    width: 230px;
+    top: 10%;
+    right: 5%;
+    transform: rotate(10deg);
+}
+.satelite {
+    width: 200px;
+    top: 20vh;
+    left: 7%;
+    transform: rotate(0deg);
+}
+.informatique {
+    width: 150px;
+    top: 40vh;
+    transform: rotate(0deg);
+    right: 7%;
+}
+.espace {
+    width: 200px;
+    bottom: 10%;
+    right: 7%;
+    transform: rotate(-10deg);
+}
+p {
+    width: 25vw;
 }
